@@ -1,0 +1,13 @@
+*.txt
+
+# Ignore large datasets and model files
+data/
+models/
+logs/
+.ipynb_checkpoints/
+__pycache__/
+
+# Ignore raw output files but keep figures
+outputs/*.csv
+outputs/*.json
+outputs/*.txt
